@@ -1,6 +1,6 @@
 # HumanFaceToolbox
 
-A Python toolbox for common human face image processing tasks, including Canny Edge Detection and Gabor Feature Extraction. This toolbox is designed to be modular, reusable, and easy to integrate into larger projects.
+A Python toolbox for common human face image processing tasks, including Canny Edge Detection, Gabor Feature Extraction and other feature extraction methods like HOG, LBP, and Wavelet. This toolbox is designed to be modular, reusable, and easy to integrate into larger projects.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ A Python toolbox for common human face image processing tasks, including Canny E
   - [Wavelet Feature Extraction Example](#wavelet-feature-extraction-example)
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
-- [Running Tests](#running-tests)
+<!-- - [Running Tests](#running-tests) -->
 
 ## Features
 
@@ -158,17 +158,18 @@ HumanFaceToolbox/
 │   ├── hog_example.py      # Example script for HOG Feature Extraction
 │   ├── lbp_example.py      # Example script for LBP Feature Extraction
 │   └── wavelet_example.py  # Example script for Wavelet Feature Extraction
+├── Dockerfile              # Dockerfile for containerized environment
+├── requirements.txt        # List of Python dependencies
+└── README.md               # Project documentation
+```
+<!-- 
 ├── tests/
 │   ├── __init__.py         # Marks tests as a Python package
 │   ├── test_canny_edge.py  # Unit tests for Canny Edge Detection
 │   ├── test_gabor_features.py # Unit tests for Gabor Feature Extraction
 │   ├── test_hog_features.py # Unit tests for HOG Feature Extraction
 │   ├── test_lbp_features.py # Unit tests for LBP Feature Extraction
-│   └── test_wavelet_features.py # Unit tests for Wavelet Feature Extraction
-├── Dockerfile              # Dockerfile for containerized environment
-├── requirements.txt        # List of Python dependencies
-└── README.md               # Project documentation
-```
+│   └── test_wavelet_features.py # Unit tests for Wavelet Feature Extraction -->
 
 ## Dependencies
 
