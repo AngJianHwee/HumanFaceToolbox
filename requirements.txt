@@ -1,0 +1,9 @@
+opencv-python
+numpy
+requests
+matplotlib
+scikit-image
+Pillow
+joblib
+tqdm
+PyWavelets
